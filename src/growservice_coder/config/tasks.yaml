@@ -1,0 +1,5 @@
+coding_task:
+  description: >
+    Implement the user's requested changes to GrowServer.
+  expected_output: >
+    Summary of implemented changes with file paths and testing steps.
