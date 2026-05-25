@@ -1,0 +1,24 @@
+[project]
+name = "growservice-coder"
+version = "0.1.0"
+description = "CrewAI Agent for developing and maintaining GrowServer (Growtopia Private Server)"
+requires-python = ">=3.10,<3.14"
+dependencies = [
+    "crewai>=0.80.0",
+    "crewai-tools>=0.20.0",
+]
+
+[project.scripts]
+run = "src.growservice_coder.main:run"
+
+[tool.crewai]
+type = "crew"
+
+[tool.uv]
+dev-dependencies = [
+    "ruff",
+    "black",
+]
+
+[tool.ruff]
+line-length = 120
